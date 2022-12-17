@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(bg.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    padding: 15%;
+}
+
+.contenedor{
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(68, 145, 247, 0.418);
+    height: 50vh;
+    width: 60vw;
+    min-width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contenedor h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.input{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 40vw;
+}
+
+.contenedor button{
+    margin: 30px;
+    width: 30vw;
+    height: 40px;
+    background-color: rgba(0, 81, 255, 0.308);
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contenedor button:hover{
+    background-color: rgba(0, 81, 255, 0.479);
+}
+
+.sexo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 40vw;
+}
+
+.genero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.opt-genero{
+    margin-right: 5px;
+}
+
